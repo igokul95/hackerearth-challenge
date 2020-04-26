@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@font-face {
+  font-family: 'psbanger';
+  src: url(../assets/Bangers-Regular.ttf);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'psbanger';
+}
+.ps-logo {
+  font-family: 'psbanger';
+  color: rgb(245, 45, 88);
+  font-size: 1.5em;
+}
+.ant-layout {
+  background-color: white;
+}
+.ps-header  {
+  background-color: white !important;
+  /* border-bottom: solid 1px grey; */
+  box-shadow: 0 0 5px rgb(201, 201, 201);
+}
+.ps-mt-5 {
+  margin-top: 7em;
+}
+.ps-primary-color {
+  color: rgb(245, 45, 88);
+}
+.ps-primary-btn {
+  background-color: rgb(245, 45, 88);
+  border: none;
+}
+.ps-primary-btn:hover {
+  background-color: rgb(175, 14, 49) !important;
+}
+.ps-banner {
+  min-height: 200px;
+  /* background-color: grey; */
+  /* background-image: url("../assets/pattern.png"); */
+  background-repeat: repeat-x;
+  font-size: 4em;
+}
+.ps-font {
+  font-family: psbanger;
+}
+.ps-card {
+border-radius: 8px !important;
+}
+.App-link {
+  color: #61dafb;
+}
+.ps-card-cover {
+  background-image: url('../assets/card-pattern.png');
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
